@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 body {
-    font-family: Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -36,6 +38,11 @@ body {
     text-transform: uppercase;
 }
 
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 .destaque {
     color: rgb(62, 238, 179);
 }
@@ -44,7 +51,7 @@ body {
 
 .banner {
     text-align: center;
-    background: rgb(207, 207, 207) url(img/banner-fundo.jpg) no-repeat fixed;
+    background: rgb(207, 207, 207) url(../img/banner-fundo.jpg) no-repeat fixed;
     /* background-color: rgb(207, 207, 207);
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat; */
@@ -71,6 +78,7 @@ body {
     text-transform: uppercase; 
     padding: 10px 30px;
     margin-top: 28px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .saiba-mais {
@@ -82,7 +90,6 @@ body {
 /* MISSAO VISAO VALORES*/
 
 .box {
-    border-top: 3px solid rgb(62, 238, 179);
     overflow: auto;
 }
 
