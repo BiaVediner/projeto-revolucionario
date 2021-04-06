@@ -145,7 +145,7 @@ body {
 .clients {
     text-align: center;
     width: 90%;
-    margin: auto;
+    padding: 0 8%;
 }
 
 .box-clients img {
