@@ -38,11 +38,6 @@ body {
     text-transform: uppercase;
 }
 
-.navbar a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
 .destaque {
     color: rgb(62, 238, 179);
 }
@@ -121,7 +116,32 @@ body {
     cursor: pointer;
 }
 
-.footer a {
+/* LINK */
+
+a {
     text-decoration: none;
     color: #fff;
+}
+
+a:hover {
+    color: rgb(62, 238, 179);
+}
+
+/* Estilo do Login */
+
+.pag-login {
+    background-color: #ECF0F1;
+}
+
+.pag-login h1 {
+    margin: 0;
+}
+
+.box-login {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 7px 13px 1px #babfc0;
+    /*box-shadow: coordenadas em x coordernadas em y difusão difusão cor*/
 }

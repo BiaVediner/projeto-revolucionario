@@ -1,72 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-.header {
-    background-color: #232323;
-    color: #fff;
-    overflow: auto;
-    border-bottom: 3px solid rgb(62, 238, 179);
-    padding: 30px 0 30px 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-}
-
-.navbar {
-    list-style: none;
-    float: right;
-
-}
-
-.logo {
-    margin: 0;
-    float: left;
-    padding-top: 5px;
-}
-
-.navbar li {
-    float: left;
-    margin-left: 10px; 
-    text-transform: uppercase;
-}
-
-.navbar a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.destaque {
-    color: rgb(62, 238, 179);
-}
-
 
 /* BANNNER */
 
-.banner {
+.banner-about {
     text-align: center;
     background: rgb(207, 207, 207) url(../img/banner-about-us.jpeg) no-repeat fixed;
     background-size: cover;
     height: 400px;
 }
 
-.banner h1 {
+.banner-about h1 {
     margin: 0;
     font-size: 50px;
     padding-top: 150px;
 }
 
-.banner h3 {
+.banner-about h3 {
     color: #646464;
     margin-bottom: 5px;
 }
 
-.banner h5 {
+.banner-about h5 {
     color: #646464;
     margin-top: 0;
 }
@@ -109,10 +62,6 @@ body {
     text-align: center;
 }
 
-.box img {
-    height: 100px;
-}
-
 /*EQUIPE*/
 
 .box-team {
@@ -126,13 +75,6 @@ body {
 
 .box-team img {
     height: 200px;
-}
-
-.box-item {
-    float: left;
-    text-align: center;
-    width: 27%;
-    padding: 3%;
 }
 
 /*CLIENTES*/
@@ -154,24 +96,3 @@ body {
     padding-right: 50px;
     margin: 50px 0;
 }   
-
-/*FOOTER*/
-
-.footer {
-   text-align: center;
-   background-color: rgb(62, 238, 179);
-   height: 90px
-}
-
-.footer h4 {
-    margin: 0;
-    font-weight: 100;
-    color: #fff;
-    padding-top: 40px;
-    cursor: pointer;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #fff;
-}
